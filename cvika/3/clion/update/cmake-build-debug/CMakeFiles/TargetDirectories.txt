@@ -1,0 +1,3 @@
+/home/jan/Desktop/directory/school/1/programko/cvika/3/clion/update/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jan/Desktop/directory/school/1/programko/cvika/3/clion/update/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jan/Desktop/directory/school/1/programko/cvika/3/clion/update/cmake-build-debug/CMakeFiles/update.dir
