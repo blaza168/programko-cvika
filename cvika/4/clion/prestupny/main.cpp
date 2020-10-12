@@ -12,11 +12,10 @@ int jePrestupny(int rok) {
 }
 
 int main() {
-    printf("Rok %d %s prestupny \n", 1000, jePrestupny(1000) == 1 ? "je" : "neni");
-    printf("Rok %d %s prestupny \n", 2000, jePrestupny(2000) == 1 ? "je" : "neni");
-    printf("Rok %d %s prestupny \n", 2002, jePrestupny(2002) == 1 ? "je" : "neni");
-    printf("Rok %d %s prestupny \n", 2004, jePrestupny(2004) == 1 ? "je" : "neni");
-    printf("Rok %d %s prestupny \n", 2014, jePrestupny(2014) == 1 ? "je" : "neni");
+    int roky[5] = {1000, 2000, 2002, 2004, 2014};
+    for (int i = 0; i < 5; i++) {
+        printf("Rok %d %s prestupny \n", roky[i], jePrestupny(roky[i]) == 1 ? "je" : "neni");
+    }
 
     getchar();
     getchar();
