@@ -3,4 +3,4 @@ project(prestupny)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(prestupny main.cpp)
+add_executable(prestupny main.cpp calendar.cpp calendar.h)
