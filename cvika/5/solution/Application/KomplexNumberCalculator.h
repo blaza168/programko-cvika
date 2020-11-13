@@ -12,6 +12,7 @@ class KomplexNumberCalculator {
 public:
     ComplexNumber plus(ComplexNumber a, ComplexNumber b);
     ComplexNumber minus(ComplexNumber a, ComplexNumber b);
+    ComplexNumber multiply(ComplexNumber a, ComplexNumber b);
 };
 
 

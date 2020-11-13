@@ -7,13 +7,18 @@
 
 
 #include "../Entity/ComplexNumber.h"
+#include "../Converter/ComplexToGeometricConverter.h"
 
 class ConsoleManager {
 public:
 ComplexNumber* getUserInput();
+ConsoleManager();
 char getOperation();
 
 void printResult(ComplexNumber number);
+
+private:
+    ComplexToGeometricConverter* converter;
 };
 
 

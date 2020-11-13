@@ -8,10 +8,10 @@
 
 class ComplexNumber {
 private:
-    float racional;
-    float imaginary;
+    double racional;
+    double imaginary;
 public:
-    ComplexNumber(float racional, float imaginary) {
+    ComplexNumber(double racional, double imaginary) {
         this->racional = racional;
         this->imaginary = imaginary;
     }

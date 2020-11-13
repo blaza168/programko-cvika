@@ -16,13 +16,13 @@ int main() {
     } else if (operation == '-') {
         ComplexNumber result = calculator.minus(userInput[0], userInput[1]);
         consoleManager.printResult(result);
+    } else if (operation == '*') {
+        ComplexNumber result = calculator.multiply(userInput[0], userInput[1]);
+        consoleManager.printResult(result);
     } else {
         std::cout << "Wrong operation";
         return 0;
     }
-
-    free(userInput);
-
 
     return 0;
 }
